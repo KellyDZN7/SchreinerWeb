@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'GoogleSans';                           /*Random Namen Geben*/
+  src: url('fonts/GoogleSans-Regular.ttf');            /*Pfad angeben --> url*/
+}
+
+@font-face {
+  font-family: 'Okine';
+  src: url('fonts/Okine-Black.otf');
+}
+
+body{
+  font-family: 'GoogleSans';
+  background-color: #0c0c0c;
+  color: white;
+  margin: 0px;
+}
+
+nav{
+  background-color: rgb(255, 136, 0);
+  padding: 10px;
+  margin: 0px;
+  color: white;
+  overflow: hidden;
+  
+}
+
+h1,h2{
+  font-family: 'Okine'; 
+  text-align: left;
+  text-transform: uppercase;                           /* -->  CAPS */
+  background-color: rgb(255, 136, 0);
+  border-radius: 10px;                                 /*Jede Ecke Runden*/
+  color: #0c0c0c;
+  padding: 8px;                                       /*Begrenzt Breite*/
+  margin-left: 6px;
+}
+
+h1{
+  
+  font-size: 18px;
+ 
+}
+
+h2{
+  font-size: 14px;
+}
+
+p{
+  font-size: 10px;
+  margin-left: 15px;
+}
+
+ul{
+  font-size: 11px;
+}
+
+.auswahl{
+  border: white solid 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/**/
+
+table, th, td{
+  margin-top: 20px;
+  margin-left: 8px;
+  border: 2px solid;
+  width: 50%;
+  border-collapse: collapse;          /* Damit nicht doppelt Border (Jeweils für th und td)*/
+}
+
+th{
+  font-size: 20px;
+  height: 60px;
+  background-color: rgb(255, 136, 0);
+  text-align-last: center;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+td{
+  font-size: 15px;
+  height: 40px;
+  text-align-last: center;
+}
+
+tr:hover {
+  background-color: rgb(224, 119, 0);
+}
+
+.tableimg{
+  width: 50px;
+  height: 50px;
+}
+
+/**/
+
+
+.navcontent{
+  padding-left: 20px ;
+  padding-right: 20px;
+  margin-right: 20px;
+  border-radius: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  vertical-align: middle;
+  display: inline-block;
+  text-decoration: none;
+  color: initial;
+}
+
+.navcontentatm{
+  padding-left: 20px ;
+  color: #0c0c0c;
+  padding-right: 20px;
+  margin-right: 20px;
+  border-radius: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  vertical-align: middle;
+  display: inline-block;
+  background-color: #ffffff;
+  text-decoration: none;
+  color: initial;
+}
+
+
+a:hover,a:active,a:focus{
+  text-decoration: none;
+  color: initial;
+}
+
+a:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.auswahl:hover{
+background-color: rgb(224, 119, 0);
+}
+
+.strich{
+  width: 18px;
+  height: 22px;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
